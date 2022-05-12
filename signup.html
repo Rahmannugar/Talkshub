@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="color-scheme" content="dark light">-->
+    <title>TalksHub-Signup</title>
+    <link rel="shortcut icon" type="image" href="lol.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section id="header">
+        <!--navbar section-->
+           <a href="#" id="az"><i class="fa-solid fa-comment-dots fa-2x" style="color: white; margin-left: 20px;"></i></a>
+           <div>
+           <ul id="navbar">
+           <li><a href="home.html">Home</a></li>
+           <li><a href="index.html">Login</a></li>
+           <li><a href="#">Sign-up</a></li>
+           <a href="#" id="close"><i class="fa fa-times" style="color: white;"></i></a>
+           </ul>
+           </div>
+           <div id="mobile"><i class="fas fa-bars" style="color: white;"></i></div> 
+   </section>
+    <!--end of navbar section-->
+    <!--login section-->
+    <h1  id="hvn">SIGN UP.</h1>
+    <input type="email" placeholder="email" id="email" class="form">
+    <input type="password" placeholder="password" id="password" class="form">
+    <a href="index.html"><button onclick="signup()" id="signup" class="btn">Sign up</button></a>
+    <!--end of login section-->
+    <script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
